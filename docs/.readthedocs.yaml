@@ -13,6 +13,3 @@ python:
     - requirements: docs/requirements.txt
     - method: pip
       path: .
-
-builds:
-  pull_requests: true

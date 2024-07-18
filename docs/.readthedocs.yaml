@@ -1,24 +1,18 @@
-# .readthedocs.yaml
-
 version: 2
 
-# Build documentation in the docs/ directory with Sphinx
 sphinx:
-  configuration: conf.py
+  configuration: docs/conf.py
 
-# Define the versions and Python configuration to use
 build:
   os: ubuntu-20.04
   tools:
     python: "3.8"
 
-# Define the requirements to install
 python:
   install:
-    - requirements: requirements.txt
+    - requirements: docs/requirements.txt
     - method: pip
       path: .
 
-# Build documentation on pull requests
 builds:
   pull_requests: true

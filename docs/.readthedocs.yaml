@@ -4,7 +4,7 @@ version: 2
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-  configuration: docs/conf.py
+  configuration: conf.py
 
 # Define the versions and Python configuration to use
 build:
@@ -15,7 +15,7 @@ build:
 # Define the requirements to install
 python:
   install:
-    - requirements: docs/requirements.txt
+    - requirements: requirements.txt
     - method: pip
       path: .
 

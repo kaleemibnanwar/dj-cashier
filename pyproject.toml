@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj-cashier"
-version = "0.1.0"
+version = "0.1.1"
 description = "Your project description goes here"
 authors = ["Kaleem ibn Anwar <kaleemibnanwar@gmail.com>"]
 license = "MIT"
